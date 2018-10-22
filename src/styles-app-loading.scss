@@ -1,0 +1,17 @@
+.app-loading{
+    .logo{
+        width: 100px;
+
+        height: 100px;
+
+        background: url(./assets/smiler.ico) center center no-repeat;
+
+        animation: fadeinout .25s infinite alternate;
+    }
+
+    @keyframes fadeinout{
+        to {
+            transform: scale(1.4)
+        }
+      }
+}
